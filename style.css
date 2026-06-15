@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:repeat;
+
+    animation: slideShow 12s infinite;
+}
+
+header{
+    background:#415991;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.login-box{
+    width:350px;
+    margin:50px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+input{
+    width:95%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#3a59ad;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.card{
+    display:inline-block;
+    width:220px;
+    background:white;
+    margin:10px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+}
+@keyframes slideShow{
+
+0%{
+background-image:url("library5.jpg");
+}
+
+33%{
+background-image:url("library6.jpg");
+}
+
+66%{
+background-image:url("library7.jpg");
+}
+
+100%{
+background-image:url("library8.jpg");
+}
+
+}
